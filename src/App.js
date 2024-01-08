@@ -13,11 +13,14 @@ import Product from './components/Product';
 import Fruit from './components/Fruit';
 import Form from './components/Form';
 import Todo from './components/Todo';
+import InlineComponent from './components/InlineComponent';
+import StylesheetComponent from './components/StylesheetComponent';
+import ModuleComponent from './components/ModuleComponent';
 
 function App() {
   return (
     <div className="App">
-      <Todo></Todo>
+      <ModuleComponent></ModuleComponent>
     </div>
   );
 }
